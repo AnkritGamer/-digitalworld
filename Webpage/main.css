@@ -1,0 +1,40 @@
+body{
+	background: linear-gradient(to right, #000428, #004e92);
+}
+nav a{
+	text-decoration:none;
+	font-size: 30px;
+	color: white;
+	display: inline-block;
+}
+nav a:hover {
+	background: #555;
+}
+nav{
+	background:#333;
+	padding: 10px;
+	text-align: right;
+}
+.dropdown::after{
+	content: "\25BE";
+}
+img{
+	width:480;
+	height:270;
+	color:white;
+	position: relative;
+	z-index: 100;
+}
+p{
+	font-size: 24px;
+	color:yellow;
+	font-family:Arial;
+}
+h1{
+	color:white;
+	font-family:Arial;
+}
+h2{
+	color:orange;
+	font-family:Arial;
+}
